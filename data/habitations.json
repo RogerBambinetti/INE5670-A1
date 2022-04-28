@@ -1,0 +1,128 @@
+{
+    "0": {
+        "name": "teste",
+        "address": "teste",
+        "coords": {
+            "lat": "-9120920",
+            "lng": "09230392"
+        },
+        "genderKind": "Masculina",
+        "accommodationKind": "",
+        "bathroomKind": "",
+        "roomsDescription": "",
+        "furnitureDescriptions": "",
+        "price": 98239,
+        "area": 123,
+        "accommodations": 34,
+        "pictures": [],
+        "videos": [],
+        "phone": "4733687090",
+        "email": "teste@gmail.com",
+        "observations": "kodkowd"
+    },
+    "1": {
+        "name": "teste1",
+        "address": "teste",
+        "coords": {
+            "lat": "-9120920",
+            "lng": "09230392"
+        },
+        "genderKind": "Masculina",
+        "accommodationKind": "",
+        "bathroomKind": "",
+        "roomsDescription": "",
+        "furnitureDescriptions": "",
+        "price": 98239,
+        "area": 123,
+        "accommodations": 34,
+        "pictures": [],
+        "videos": [],
+        "phone": "4733687090",
+        "email": "teste@gmail.com",
+        "observations": "kodkowd"
+    },
+    "2": {
+        "name": "teste2",
+        "address": "teste",
+        "coords": {
+            "lat": "-9120920",
+            "lng": "09230392"
+        },
+        "genderKind": "Masculina",
+        "accommodationKind": "",
+        "bathroomKind": "",
+        "roomsDescription": "",
+        "furnitureDescriptions": "",
+        "price": 98239,
+        "area": 123,
+        "accommodations": 34,
+        "pictures": [],
+        "videos": [],
+        "phone": "4733687090",
+        "email": "teste@gmail.com",
+        "observations": "kodkowd"
+    },
+    "3": {
+        "name": "teste3",
+        "address": "teste",
+        "coords": {
+            "lat": "-9120920",
+            "lng": "09230392"
+        },
+        "genderKind": "Masculina",
+        "accommodationKind": "",
+        "bathroomKind": "",
+        "roomsDescription": "",
+        "furnitureDescriptions": "",
+        "price": 98239,
+        "area": 123,
+        "accommodations": 34,
+        "pictures": [],
+        "videos": [],
+        "phone": "4733687090",
+        "email": "teste@gmail.com",
+        "observations": "kodkowd"
+    },
+    "4": {
+        "name": "teste4",
+        "address": "teste",
+        "coords": {
+            "lat": "-9120920",
+            "lng": "09230392"
+        },
+        "genderKind": "Masculina",
+        "accommodationKind": "",
+        "bathroomKind": "",
+        "roomsDescription": "",
+        "furnitureDescriptions": "",
+        "price": 98239,
+        "area": 123,
+        "accommodations": 34,
+        "pictures": [],
+        "videos": [],
+        "phone": "4733687090",
+        "email": "teste@gmail.com",
+        "observations": "kodkowd"
+    },
+    "5": {
+        "name": "teste5",
+        "address": "teste",
+        "coords": {
+            "lat": "-9120920",
+            "lng": "09230392"
+        },
+        "genderKind": "Masculina",
+        "accommodationKind": "",
+        "bathroomKind": "",
+        "roomsDescription": "",
+        "furnitureDescriptions": "",
+        "price": 98239,
+        "area": 123,
+        "accommodations": 34,
+        "pictures": [],
+        "videos": [],
+        "phone": "4733687090",
+        "email": "teste@gmail.com",
+        "observations": "kodkowd"
+    }
+}
