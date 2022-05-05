@@ -21,12 +21,16 @@ export default function Details() {
   }, []);
 
   async function handleFavorite() {
-    const value = !favorite;
-    const favorites = JSON.parse(await AsyncStorage.getItem('favorites'));
-    favorites[item.id] = value;
+    try {
+      const value = !favorite;
+      const favorites = JSON.parse(await AsyncStorage.getItem('favorites')) || {};
+      favorites[item.id] = value;
 
-    setFavorite(value);
-    await AsyncStorage.setItem('favorites', JSON.stringify(favorites));
+      setFavorite(value);
+      await AsyncStorage.setItem('favorites', JSON.stringify(favorites));
+    } catch (error) {
+      console.error(error);
+    }
   }
 
   return (
