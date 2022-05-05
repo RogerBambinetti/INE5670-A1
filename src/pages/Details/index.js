@@ -15,9 +15,18 @@ export default function Details() {
 
   const [favorite, setFavorite] = useState(false);
 
-  function handleFavorite() {
-    setFavorite(!favorite);
-    AsyncStorage.setItem(item.id, favoriteArray);
+  useEffect(async () => {
+    const favorites = await AsyncStorage.getItem('favorites') || {};
+    setFavorite(JSON.parse(favorites)[item.id]);
+  }, []);
+
+  async function handleFavorite() {
+    const value = !favorite;
+    const favorites = JSON.parse(await AsyncStorage.getItem('favorites'));
+    favorites[item.id] = value;
+
+    setFavorite(value);
+    await AsyncStorage.setItem('favorites', JSON.stringify(favorites));
   }
 
   return (
