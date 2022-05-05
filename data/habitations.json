@@ -15,7 +15,10 @@
         "price": 98239,
         "area": 123,
         "accommodations": 34,
-        "pictures": [],
+        "pictures": [
+            "https://www.plantapronta.com.br/projetos/161/02.jpg",
+            "https://images.adsttc.com/media/images/5f90/e509/63c0/1779/0100/010e/newsletter/3.jpg?1603331288"
+        ],
         "videos": [],
         "phone": "4733687090",
         "email": "teste@gmail.com",
