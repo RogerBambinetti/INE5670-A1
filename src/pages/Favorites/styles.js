@@ -5,4 +5,8 @@ export default StyleSheet.create({
         flex: 1,
         alignItems: 'center',
     },
+    content: {
+        paddingHorizontal: 25,
+        width: '100%'
+    }
 });

@@ -6,6 +6,7 @@ export default StyleSheet.create({
         backgroundColor: "#FFF",
         marginBottom: 10,
         borderRadius: 8,
+        overflow: 'hidden'
     },
     title: {
         fontSize: 15,
@@ -26,5 +27,9 @@ export default StyleSheet.create({
     body:{
         paddingHorizontal: 20,
         paddingVertical: 10
+    },
+    image:{
+        width: '100%',
+        height: 200
     }
 });
