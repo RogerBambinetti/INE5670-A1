@@ -8,5 +8,11 @@ export default StyleSheet.create({
     content: {
         paddingHorizontal: 25,
         width: '100%'
+    },
+    text: {
+        color: '#F2F2F2',
+        fontSize: 20,
+        fontWeight: 'bold',
+        marginTop: 200
     }
 });
