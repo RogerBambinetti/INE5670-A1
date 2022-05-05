@@ -40,7 +40,9 @@
         "price": 98239,
         "area": 123,
         "accommodations": 34,
-        "pictures": [],
+        "pictures": [
+            "https://archicgi.com/wp-content/uploads/2020/06/3d-render-interior-design-studio.jpg"
+        ],
         "videos": [],
         "phone": "4733687090",
         "email": "teste@gmail.com",
@@ -62,7 +64,10 @@
         "price": 98239,
         "area": 123,
         "accommodations": 34,
-        "pictures": [],
+        "pictures": [
+            "https://uploads-ssl.webflow.com/5894a32730554b620f7bf36d/5e848c0ff368a43e070e167a_5bb49fc401d72b9350159eb0_4-Essential-3D-Rendering-Tutorials-for-Noobs-EASY-RENDER.jpeg",
+            "https://uploads-ssl.webflow.com/5894a32730554b620f7bf36d/5e8464fe3fb6cf4743f3267c_5a97cd9d3c7b7d0001a3778e_Free-3D-Modeling-Software-EASY-RENDER.jpeg"
+        ],
         "videos": [],
         "phone": "4733687090",
         "email": "teste@gmail.com",
@@ -84,7 +89,9 @@
         "price": 98239,
         "area": 123,
         "accommodations": 34,
-        "pictures": [],
+        "pictures": [
+            "https://cdnb.artstation.com/p/assets/images/images/009/456/699/large/dhananjayan-nair-apartment-living-room-sydney.jpg?1519105628&dl=1"
+        ],
         "videos": [],
         "phone": "4733687090",
         "email": "teste@gmail.com",
@@ -106,7 +113,9 @@
         "price": 98239,
         "area": 123,
         "accommodations": 34,
-        "pictures": [],
+        "pictures": [
+            "https://i.pinimg.com/originals/36/94/16/36941675eb52c6ea8097faf79b2699e5.jpg"
+        ],
         "videos": [],
         "phone": "4733687090",
         "email": "teste@gmail.com",
@@ -128,7 +137,9 @@
         "price": 98239,
         "area": 123,
         "accommodations": 34,
-        "pictures": [],
+        "pictures": [
+            "https://img3.exportersindia.com/product_images/bc-full/2020/5/7246459/3d-modular-interior-design-1589108870-5421721.jpeg"
+        ],
         "videos": [],
         "phone": "4733687090",
         "email": "teste@gmail.com",

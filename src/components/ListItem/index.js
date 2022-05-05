@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity, Image } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useNavigation } from '@react-navigation/native';
 import { Feather } from '@expo/vector-icons';
 
@@ -15,8 +16,9 @@ export default function ListItem({ item }) {
 
     return (
         <TouchableOpacity style={styles.item} onPress={navigateToDetail}>
-            <View style={styles.image}>
-
+            <View style={styles.imageContainer}>
+                <LinearGradient colors={['transparent', 'rgba(0,0,0,0.5)']} style={styles.overlay} />
+                <Image style={styles.image} source={{ uri: item.pictures[0] }} />
             </View>
             <View style={styles.header}>
                 <Text style={styles.title}>{item.name}</Text>

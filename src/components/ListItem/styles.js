@@ -15,7 +15,7 @@ export default StyleSheet.create({
     content: {
         color: '#595959'
     },
-    header:{
+    header: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
@@ -24,12 +24,21 @@ export default StyleSheet.create({
         paddingHorizontal: 20,
         paddingVertical: 10
     },
-    body:{
+    body: {
         paddingHorizontal: 20,
         paddingVertical: 10
     },
-    image:{
+    imageContainer: {
         width: '100%',
         height: 200
-    }
+    },
+    image:{
+        flex: 1
+    },
+    overlay:{
+        width: '100%',
+        height: '100%',
+        position: 'absolute',
+        zIndex: 5,
+    },
 });
