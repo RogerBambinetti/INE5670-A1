@@ -34,5 +34,18 @@ export default StyleSheet.create({
         width: '90%',
         borderRadius: 8,
         marginTop: 25
+    },
+    button:{
+        backgroundColor: '#2DDCEB',
+        padding: 15,
+        borderRadius: 8,
+        marginTop: 10,
+        flexDirection: 'row',
+        alignItems: 'center'
+    },
+    buttonText:{
+        color: '#F2F2F2',
+        fontWeight: 'bold',
+        marginLeft: 10
     }
 });

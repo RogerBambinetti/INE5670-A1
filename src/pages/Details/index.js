@@ -58,6 +58,18 @@ export default function Details() {
         <Text>{item.phone}</Text>
         <Text>{item.email}</Text>
         <Text>{item.observations}</Text>
+        <TouchableOpacity style={styles.button}>
+          <MaterialCommunityIcons name="phone" size={20} color="#F2F2F2" />
+          <Text style={styles.buttonText}>LIGAR</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.button}>
+          <MaterialCommunityIcons name="map" size={20} color="#F2F2F2" />
+          <Text style={styles.buttonText}>MAPA</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.button}>
+          <MaterialCommunityIcons name="play" size={20} color="#F2F2F2" />
+          <Text style={styles.buttonText}>VÍDEO</Text>
+        </TouchableOpacity>
       </View>
     </LinearGradient>
   );
