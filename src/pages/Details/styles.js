@@ -33,7 +33,7 @@ export default StyleSheet.create({
         padding: 25,
         width: '90%',
         borderRadius: 8,
-        marginTop: 25
+        marginVertical: 25,
     },
     button:{
         backgroundColor: '#2DDCEB',
@@ -47,5 +47,14 @@ export default StyleSheet.create({
         color: '#F2F2F2',
         fontWeight: 'bold',
         marginLeft: 10
+    },
+    fieldName:{
+        fontWeight: 'bold',
+        marginBottom: 2,
+        color: "#3D3D3D"
+    },
+    fieldValue:{
+        marginBottom: 10,
+        color: "#6B6B6B"
     }
 });

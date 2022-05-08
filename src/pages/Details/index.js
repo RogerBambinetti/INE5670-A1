@@ -50,14 +50,30 @@ export default function Details() {
         </TouchableOpacity>
       </TouchableOpacity>
       <View style={styles.content}>
-        <Text>{item.name}</Text>
-        <Text>{item.address}</Text>
-        <Text>{item.price}</Text>
-        <Text>{item.area}</Text>
-        <Text>{item.accomodations}</Text>
-        <Text>{item.phone}</Text>
-        <Text>{item.email}</Text>
-        <Text>{item.observations}</Text>
+        <Text style={styles.fieldName}>Nome</Text>
+        <Text style={styles.fieldValue}>{item.name}</Text>
+        <Text style={styles.fieldName}>Quantidade de alojamentos</Text>
+        <Text style={styles.fieldValue}>{item.accommodations}</Text>
+        <Text style={styles.fieldName}>Endereço</Text>
+        <Text style={styles.fieldValue}>{item.address}</Text>
+        <Text style={styles.fieldName}>Valor/mês</Text>
+        <Text style={styles.fieldValue}>{item.price}</Text>
+        <Text style={styles.fieldName}>Gênero</Text>
+        <Text style={styles.fieldValue}>{item.genderKind}</Text>
+        <Text style={styles.fieldName}>Tipo de alojamento</Text>
+        <Text style={styles.fieldValue}>{item.accommodationKind}</Text>
+        <Text style={styles.fieldName}>Mobília</Text>
+        <Text style={styles.fieldValue}>{item.furnitureDescriptions}</Text>
+        <Text style={styles.fieldName}>Tipo de banheiro</Text>
+        <Text style={styles.fieldValue}>{item.bathroomKind}</Text>
+        <Text style={styles.fieldName}>Área(m²)</Text>
+        <Text style={styles.fieldValue}>{item.area}</Text>
+        <Text style={styles.fieldName}>Descrição de áreas</Text>
+        <Text style={styles.fieldValue}>{item.roomsDescription}</Text>
+        <Text style={styles.fieldName}>E-mail</Text>
+        <Text style={styles.fieldValue}>{item.email}</Text>
+        <Text style={styles.fieldName}>Observações adicionais</Text>
+        <Text style={styles.fieldValue}>{item.observations}</Text>
         <TouchableOpacity style={styles.button}>
           <MaterialCommunityIcons name="phone" size={20} color="#F2F2F2" />
           <Text style={styles.buttonText}>LIGAR</Text>
