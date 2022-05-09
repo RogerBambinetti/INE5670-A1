@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, ScrollView, Text, TouchableOpacity, Image } from 'react-native';
+import { View, ScrollView, Text, TouchableOpacity, Image, Linking } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRoute } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -39,6 +39,30 @@ export default function Details() {
     setPictureIndex(value);
   }
 
+  function handlePhone() {
+    try {
+      Linking.openURL(`tel:${item.phone}`);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  function handleMap() {
+    try {
+      Linking.openURL(`geo:0,0?q=${item.name}@${item.coords.lat},${item.coords.lng}`);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  function handleVideo() {
+    try {
+      Linking.openURL(item.videos[0]);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
   return (
     <LinearGradient colors={['#2DDCEB', '#35DE8C']} style={styles.container}>
       <Menu title="Detalhes" />
@@ -75,15 +99,15 @@ export default function Details() {
           <Text style={styles.fieldValue}>{item.email}</Text>
           <Text style={styles.fieldName}>Observações adicionais</Text>
           <Text style={styles.fieldValue}>{item.observations}</Text>
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity onPress={handlePhone} style={styles.button}>
             <MaterialCommunityIcons name="phone" size={20} color="#F2F2F2" />
             <Text style={styles.buttonText}>LIGAR</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity onPress={handleMap} style={styles.button}>
             <MaterialCommunityIcons name="map" size={20} color="#F2F2F2" />
             <Text style={styles.buttonText}>MAPA</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity onPress={handleVideo} style={styles.button}>
             <MaterialCommunityIcons name="play" size={20} color="#F2F2F2" />
             <Text style={styles.buttonText}>VÍDEO</Text>
           </TouchableOpacity>
